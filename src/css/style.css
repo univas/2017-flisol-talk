@@ -1,0 +1,63 @@
+
+* {
+    user-select: none;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 800px;
+    height: 600px;
+    background: url(../images/pokedex.png) no-repeat center;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*-webkit-app-region: drag;*/
+}
+
+img[src=""] {
+    visibility: hidden
+}
+
+img {
+    position: absolute;
+    top: 190px;
+    left: 130px;
+    width: 150px;
+    height: 150px;
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    position: absolute;
+    bottom: 75px;
+    left: 115px;
+    width: 100px;
+    height: 40px;
+    font-size: 40px;
+    background: #56ab63;
+    border: none;
+    outline: none;
+    padding: 5px;
+    input::-webkit-outer-spin-button
+}
+
+.poke-data {
+    position: absolute;
+    top: 210px;
+    right: 100px;
+    width: 223px;
+    text-align: center;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
