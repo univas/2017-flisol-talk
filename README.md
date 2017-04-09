@@ -1,6 +1,6 @@
 # Pokédex with Electron
 
-This is a pokédex example built with electron. To run make sure you have [yarn](https://yarnpkg.com/en/) installed and then ran the commands below:
+This is a pokédex example built with electron. To run make sure you have [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/en/) installed and then ran the commands below:
 
 ```
 yarn install
